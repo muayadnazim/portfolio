@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="flex min-h-[100vh] min-w-full
+      className="flex min-h-[100vh] min-w-full 
   items-center justify-center"
     >
       <div
