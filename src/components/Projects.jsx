@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import image1 from "/images/1.png";
 import image2 from "/images/2.png";
 import { motion } from "motion/react";
 
@@ -20,6 +20,16 @@ export default function Projects() {
         "Express Js",
         "MongoDB",
       ],
+      url: "https://realestate-mern-z6c1.onrender.com/",
+      note: "note: to open this website wait a minute because deploy for free just to show case",
+    },
+    {
+      image: image1,
+      title: "Landing Page",
+      description: "Landing Page using html css js ",
+      technologies: ["Html", "Css", "JavaScript"],
+      url: "https://muayadnazim.github.io/HTML_CSS_PROJECT_one/",
+      note: "",
     },
   ];
 
@@ -39,7 +49,7 @@ export default function Projects() {
   const ProjectCard = ({ project }) => {
     return (
       <ScrollReveal>
-        <a target="_blank" href="https://realestate-mern-z6c1.onrender.com/">
+        <a target="_blank" href={project.url}>
           <div className="flex flex-col items-center gap-8 md:flex-row md:gap-24">
             <img
               src={project.image}
@@ -52,6 +62,8 @@ export default function Projects() {
                 <div className="text-xl font-semibold">{project.title}</div>
                 <p className="text-gray-400">{project.description}</p>
               </div>
+
+              <p className="text-xs p-3 text-red-300">{project.note}</p>
 
               <div className="flex flex-wrap gap-2 my-10 ">
                 {project.technologies.map((tech, index) => (
