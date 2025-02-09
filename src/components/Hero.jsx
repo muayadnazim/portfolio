@@ -1,4 +1,4 @@
-import image from "/public/muayad.jpg";
+import image from "/muayad.jpg";
 import { motion } from "motion/react";
 
 export default function Hero() {
