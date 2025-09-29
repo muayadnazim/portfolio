@@ -1,10 +1,29 @@
 /* eslint-disable react/prop-types */
 import image1 from "/images/1.png";
 import image2 from "/images/2.png";
+import image3 from "/images/3.png";
 import { motion } from "motion/react";
 
 export default function Projects() {
   const projectData = [
+    {
+      image: image3,
+      title: "e-commerce Website",
+      description:
+        "modern online e-commerce Website that offers a wide range of products, from appliances and electronics to home essentials and lifestyle goods. Our platform is designed to provide customers with a seamless shopping experience, combining convenience, security, and fast delivery.",
+      technologies: [
+        "Html",
+        "Css",
+        "Tailwind",
+        "JavaScript",
+        "React Js",
+        "Node Js",
+        "Express Js",
+        "MongoDB",
+      ],
+      url: "https://www.homemanzili.com/",
+      note: "",
+    },
     {
       image: image2,
       title: "Realestate Website",
