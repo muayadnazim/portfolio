@@ -10,7 +10,7 @@ export default function Projects() {
       image: image3,
       title: "e-commerce Website",
       description:
-        "modern online e-commerce Website that offers a wide range of products, from appliances and electronics to home essentials and lifestyle goods. Our platform is designed to provide customers with a seamless shopping experience, combining convenience, security, and fast delivery.",
+        "modern  online e-commerce Website that offers a wide range of products, from appliances and electronics to home essentials and lifestyle goods. Our platform is designed to provide customers with a seamless shopping experience, combining convenience, security, and fast delivery.",
       technologies: [
         "Html",
         "Css",
