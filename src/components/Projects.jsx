@@ -2,10 +2,29 @@
 import image1 from "/images/1.png";
 import image2 from "/images/2.png";
 import image3 from "/images/3.png";
+import image4 from "/images/4.png";
 import { motion } from "motion/react";
 
 export default function Projects() {
   const projectData = [
+    {
+      image: image4,
+      title: "Menu Baquba – Restaurant Directory Platform",
+      description:
+        "A comprehensive restaurant directory platform that allows users to discover and explore restaurants in Baquba. Features location-based search, optimized database queries using MongoDB, integrated external communication channels, and business information services.",
+      technologies: [
+        "Html",
+        "Css",
+        "Tailwind",
+        "JavaScript",
+        "React Js",
+        "Node Js",
+        "Express Js",
+        "MongoDB",
+      ],
+      url: "https://menus.homemanzili.com/",
+      note: "",
+    },
     {
       image: image3,
       title: "e-commerce Website",
